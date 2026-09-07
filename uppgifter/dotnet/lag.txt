@@ -1,5 +1,0 @@
-Nullpekarna;120
-Team Semikolon;85
-Kaffe och Kod;140
-Rekursiva Rävar;95
-Merge Conflict;60
