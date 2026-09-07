@@ -1,0 +1,289 @@
+<!doctype html>
+<!--
+  ===================================================================
+   Uppgift 3: Poängtavlan   (25p, Svår)
+  ===================================================================
+
+   Öppna filen i en webbläsare (dubbelklicka).
+
+   Det här är en miniversion av ChasHacks egen uppgiftssida: en lista
+   med uppgifter som ni kan bocka av, och en poängsumma som ska ticka
+   upp när ni gör det.
+
+   Listan fungerar. Rutorna går att kryssa i. MEN:
+
+     1. Summan står kvar på 0 hur mycket ni än kryssar.
+     2. Laddar ni om sidan (F5) är allt borta.
+
+   Er uppgift är att fixa båda delarna.
+
+   Den här är svårare än de andra två. Gör dem först. Ta en TODO i taget
+   och ladda om sidan mellan varje.
+
+   Instruktionerna står längst ner i filen, under koden.
+
+   BEVIS: koden i repot plus skärmdump där några uppgifter är ikryssade
+          och summan stämmer.
+  ===================================================================
+-->
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poängtavlan - ChasHack</title>
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #13131a;
+        color: #f5f5f5;
+        max-width: 34rem;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .summa {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #7c5cff;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 2rem 0 0;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 0;
+        border-bottom: 1px solid #2a2a35;
+      }
+
+      input[type="checkbox"] {
+        width: 1.15rem;
+        height: 1.15rem;
+        accent-color: #7c5cff;
+        cursor: pointer;
+        flex: none;
+      }
+
+      .poang {
+        margin-left: auto;
+        color: #a0a0b0;
+        font-variant-numeric: tabular-nums;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Vår poängtavla</h1>
+    <p>Kryssa i det ni har klarat.</p>
+
+    <span class="summa"><span id="summa">0</span> p</span>
+
+    <ul id="lista"></ul>
+
+    <script>
+      // ===============================================================
+      //  Uppgifterna. Varje uppgift är ett objekt med tre delar:
+      //  ett namn, en poäng och om den är klar eller inte.
+      // ===============================================================
+
+      const uppgifter = [
+        { namn: "Rätta buggen",         poang: 10, klar: false },
+        { namn: "Knappen och rubriken", poang: 5,  klar: false },
+        { namn: "Egen favicon",         poang: 10, klar: false },
+        { namn: "Publikt repo",         poang: 10, klar: false },
+        { namn: "Klickräknare",         poang: 15, klar: false },
+        { namn: "Grupplogga",           poang: 15, klar: false },
+        { namn: "Deploya sidan",        poang: 20, klar: false },
+        { namn: "Lagchatt",             poang: 5,  klar: false },
+      ];
+
+
+      const lista = document.querySelector("#lista");
+      const summaRuta = document.querySelector("#summa");
+
+
+      // ===============================================================
+      //  rita() bygger upp listan på sidan, en rad per uppgift.
+      //  Den är redan färdig - ni behöver bara fylla i TODO 2 och 3.
+      // ===============================================================
+
+      function rita() {
+        lista.innerHTML = "";
+
+        for (const uppgift of uppgifter) {
+          const rad = document.createElement("li");
+
+          const ruta = document.createElement("input");
+          ruta.type = "checkbox";
+          ruta.checked = uppgift.klar;
+
+          const namn = document.createElement("span");
+          namn.textContent = uppgift.namn;
+
+          const poang = document.createElement("span");
+          poang.className = "poang";
+          poang.textContent = uppgift.poang + " p";
+
+          // Det här körs varje gång någon kryssar i eller ur rutan.
+          ruta.addEventListener("change", function () {
+            uppgift.klar = ruta.checked;
+
+            // TODO 2: skriv anropet till visaSumma() här.
+
+            // TODO 3: skriv anropet till spara() här.
+          });
+
+          rad.append(ruta, namn, poang);
+          lista.append(rad);
+        }
+      }
+
+
+      // ===============================================================
+      //  raknaPoang() ska räkna ihop poängen för de ikryssade
+      //  uppgifterna. Just nu svarar den alltid 0. Det är TODO 1.
+      // ===============================================================
+
+      function raknaPoang() {
+        let summa = 0;
+
+        // TODO 1: skriv loopen här.
+
+        return summa;
+      }
+
+
+      function visaSumma() {
+        summaRuta.textContent = raknaPoang();
+      }
+
+
+      // ===============================================================
+      //  spara() och ladda() är tomma. Det är TODO 3.
+      // ===============================================================
+
+      function spara() {
+        // TODO 3
+      }
+
+      function ladda() {
+        // TODO 3
+      }
+
+
+      // Det här körs när sidan öppnas.
+      ladda();
+      rita();
+      visaSumma();
+    </script>
+
+
+    <!--
+      =================================================================
+       ATT GÖRA
+      =================================================================
+
+       TODO 1: Få summan att räknas ut.
+
+               Leta upp funktionen raknaPoang(). Den ska gå igenom alla
+               uppgifter och lägga ihop poängen för dem som är klara.
+
+               En loop som går igenom listan ser ut så här:
+
+                   for (const uppgift of uppgifter) {
+                       if (uppgift.klar === true) {
+                           summa = summa + uppgift.poang;
+                       }
+                   }
+
+               Skriv in den där det står TODO 1, ovanför raden
+               "return summa".
+
+               Ladda om sidan. Summan står fortfarande på 0 - det är
+               väntat, för ingen talar om för sidan att räkna om.
+               Det är nästa steg.
+
+
+       TODO 2: Få summan att uppdateras när man klickar.
+
+               Inne i rita() finns en rad som körs varje gång någon
+               kryssar i en ruta. Där står TODO 2. Skriv:
+
+                   visaSumma();
+
+               Ladda om sidan och kryssa i några uppgifter. Nu ska
+               siffran röra på sig.
+
+
+       TODO 3: Spara så att det överlever en omladdning.
+
+               Webbläsaren har ett litet minne som heter localStorage.
+               Där kan sidan spara text som ligger kvar även när man
+               stänger fliken.
+
+               Fyll funktionen spara():
+
+                   localStorage.setItem("poangtavla", JSON.stringify(uppgifter));
+
+               Fyll funktionen ladda():
+
+                   const sparat = localStorage.getItem("poangtavla");
+
+                   if (sparat !== null) {
+                       const gamla = JSON.parse(sparat);
+
+                       for (let i = 0; i < uppgifter.length; i++) {
+                           uppgifter[i].klar = gamla[i].klar;
+                       }
+                   }
+
+               Skriv sen anropet till spara() där det står TODO 2 i
+               rita(), på raden under visaSumma().
+
+               JSON.stringify gör om listan till text, för localStorage
+               kan bara spara text. JSON.parse gör om texten till en
+               lista igen.
+
+               Ladda om sidan. Nu ska kryssen ligga kvar.
+
+
+       TODO 4 (extra, om ni hinner): visa hur många ni klarat.
+
+               Skriv ut "3 av 8 klara" någonstans på sidan, och håll
+               siffran uppdaterad.
+
+               Tips: uppgifter.length är hur många det finns totalt.
+               För att räkna de klara behöver ni en loop till, eller:
+
+                   uppgifter.filter(u => u.klar).length
+
+
+      =================================================================
+       FASTNAT?
+      =================================================================
+
+       Högerklicka på sidan, välj Inspektera och gå till fliken Console.
+       Röd text där betyder att något är fel, och radnumret står till
+       höger.
+
+       Händer ingenting alls när ni kryssar? Kolla att ni skrivit
+       visaSumma(); med både parenteser och semikolon.
+
+       Sparas inget när ni öppnar filen genom att dubbelklicka? Vissa
+       webbläsare stänger av localStorage för filer som ligger på datorn.
+       Lägg upp sidan med GitHub Pages (DevOps, uppgift 1) och testa där.
+      =================================================================
+    -->
+  </body>
+</html>

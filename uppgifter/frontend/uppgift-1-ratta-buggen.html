@@ -1,0 +1,62 @@
+<!doctype html>
+<!--
+  ===================================================================
+   Uppgift 1: Rätta buggen   (10p, Lätt)
+  ===================================================================
+
+   Öppna den här filen i en webbläsare (dubbelklicka på filen).
+
+   Det ska synas en knapp under rubriken. Det gör det inte.
+   Knappen finns i koden - något gör att den inte syns.
+
+   ATT GÖRA
+     1. Öppna filen i webbläsaren och se att knappen saknas.
+     2. Leta i koden nedan tills ni hittar orsaken.
+        Tips: knappen finns i HTML-koden. Titta i stället på reglerna
+        inne i <style> och fundera på vad var och en gör.
+     3. Fixa felet så att knappen syns.
+     4. Committa.
+
+   BEVIS: commit-länk i lagets repo där buggen är fixad.
+  ===================================================================
+-->
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rätta buggen - ChasHack</title>
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #13131a;
+        color: #f5f5f5;
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .knapp {
+        display: none;
+        background: #7c5cff;
+        color: #fff;
+        border: 0;
+        border-radius: 999px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hittar ni knappen?</h1>
+    <p>Under den här texten ska det sitta en lila knapp.</p>
+
+    <button class="knapp">Tryck på mig</button>
+  </body>
+</html>
