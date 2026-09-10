@@ -87,9 +87,15 @@ skriv in lagnamnet och börja på steg 1 i huvudspåret.
 ---
 
 ## Bra att veta
+- **Kör ni i VS Code? Installera tillägget Live Server.** Då slipper ni ladda
+  om: sidan uppdateras i webbläsaren direkt när ni sparar.
+  1. Tryck på ikonen med fyra rutor i menyn till vänster (**Extensions**).
+  2. Sök efter **Live Server** och tryck **Install**.
+  3. Högerklicka någonstans inne i `index.html` och välj **Open with Live Server**.
 
-- **Dubbelklicka på `index.html`** för att öppna sidan i webbläsaren och se
-  hur den ser ut.
+  Sidan öppnas på `http://127.0.0.1:5500`. Låt fönstret ligga bredvid
+  VS Code medan ni jobbar - varje gång ni sparar med Ctrl+S syns ändringen
+  direkt.
 - **Byt ut den här README-filen.** I steg 11 skriver ni en egen README med
   lagets namn, medlemmarna och länken till er publicerade sida.
 - **Fastnar ni?** Fråga en handledare. Det räknas inte emot er. Fastnar ni
