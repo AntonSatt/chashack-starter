@@ -1,10 +1,21 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing:border-box;
 }
 body{
     font-family:Arial;
     background-color:white;
     color:black;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+footer{
+    border-top:1px solid #060606;
+    padding:20px;
+    text-align:center;
+    background-color:white;
+    margin-top: auto;
 }
