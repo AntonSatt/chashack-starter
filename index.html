@@ -1,5 +1,24 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      type="image/png"
+      alt="favicon with a light bulb"
+      href="htmlfavicon.png"
+    />
+    <script src="dark-mode.js" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      Header <button id="theme_toggler">Dark Mode</button>
+      Header
+      <h1>KeepItSimpleStupid</h1>
+      <div class="weather">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +41,14 @@
         <p class="wind">Vind:</p>
         <p class="humid">luftfuktighet:</p>
       </div>
+    </header>
+    <main class="container">
+      main
+      <p>
+        Hej! Vi är fem personer som pluggar på Chas Academy i Stockholm! Vi går
+        i olika kurser, men vi har alla ett gemensamt intresse för programmering
+        och webbutveckling.
+      </p>
       <div id="countdown"></div>
   </header>
   <main class="container">
@@ -82,8 +109,52 @@
   <li>14:47 Svea postar på LinkedIn omChas Hack.</li>
   <li>14:52 Vi alla commitar våra sista grejer innan vi slutar. Just nu på plats 3 - spännande!</li>
 
-</ul>
+      <p>Allas favoritverktyg</p>
+      <ul>
+        <li>Svea: CTRL+C /CTRL+V</li>
+        <li>Annie: CTRL + Höger/Vänster-pil</li>
+        <li>Rickard: ALT + F4 - Kortkommando som löser alla problem.</li>
+        <li>Aleksei: git reset --hard</li>
+        <li>Ganbold: ALT + F4 - for rage quitting</li>
+      </ul>
 
+      <!-- Tidslinje side quest - IN PROGRESS-->
+      <p>Timeline:</p>
+      <ul>
+        <li>
+          09:30 Svea har problem med Github pga 2 olika logins och behöver hjälp
+        </li>
+        <li>
+          09:35 Ganbold har problem med att använda Visual Studio Code på sin
+          Mac och behöver hjälp
+        </li>
+        <li>09:40 Aleksei fixar sidans skelet och liv i sidan</li>
+        <li>09:45 Annie fixar footer</li>
+        <li>09:55 Rickard och Annie fixar CSS</li>
+        <li>09:58 Rickard hjälper Svea och Ganbold</li>
+        <li>10:00 Svea fixar image och favicon</li>
+        <li>11:00 Rickard fixar Readme file</li>
+        <li>12:02 lunch - mums!</li>
+        <li>
+          12:58 Ganbold kan inte göra en pull request pga okänt anledning
+          (Github kan vara frustrerande!)
+        </li>
+        <li>
+          13:00 Svea börjar med tidslinjen och försöker komma ihåg vad alla
+          gjorde och när
+        </li>
+        <li>
+          13:28 Svea gör en pull request som tar bort del av koden vi hade
+          tidigare. Oops!
+        </li>
+        <li>13:29Rickard försöker fixa övenstående problemet</li>
+        <li>13:32 Annie börjar med dark mode</li>
+        <li>13:36 Ganbold börjar med hoover</li>
+        <li>14:12 Svea och Rickard fixar gruppbilden</li>
+      </ul>
+    </main>
+    <footer class="footer-container">Footer</footer>
+    <h>KeepItSimpleStupid</h>
   <button id="click-counter">Klicka mig!: 0</button>
   <script src="click-counter.js"></script>
 
@@ -95,7 +166,7 @@
   
   
 
-  <script src="step_8.js"></script>
-  <script src="./weather.js"></script>
-</body>
+    <script src="step_8.js"></script>
+    <script src="./weather.js"></script>
+  </body>
 </html>
