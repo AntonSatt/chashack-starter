@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
         {
             string p = Path.GetFullPath(
                 Path.Combine(
-                    env.ContentRootPath,
+                    env.ContentRootPath,//need to jump out of backend folder
                     "..",
                     "..",
                     "README.md"
