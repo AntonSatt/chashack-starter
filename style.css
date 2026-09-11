@@ -58,6 +58,14 @@ body.dark_mode .header-container {
   border: 1px solid black;
 }
 
+.focus-only:focus{
+    outline: 2px solid black;
+}
+
+.focus-visible-only:focus-visible{
+    outline: 2px solid black;
+}
+
 h1 {
   position: relative;
   display: flex;
