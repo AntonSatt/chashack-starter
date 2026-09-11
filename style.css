@@ -43,8 +43,9 @@ body {
 }
 
 h1 {
-  left: 150px;
   position: relative;
+  display: flex;
+  justify-content: center;
 
   animation-name: title;
   animation-duration: 5s;
@@ -52,11 +53,11 @@ h1 {
 
 @keyframes title {
   0% {
-    left: -150px;
+    left: -500cm;
     top: 0px;
   }
   100% {
-    left: 150px;
+    left: 0px;
     top: 0px;
   }
 }
