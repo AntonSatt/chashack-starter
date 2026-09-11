@@ -12,8 +12,14 @@ body {
 .step8 {
     height: 50px;
     width: 200px;
-    background-color: yellow;
-    padding: 2px,
+    background-color: rgb(229, 63, 218);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 20px;
 }
 
 .header-container {
