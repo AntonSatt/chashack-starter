@@ -2,22 +2,9 @@ addEventListener("DOMContentLoaded", (event) =>
 {
     const mainButton = document.getElementById("mainButton");
     const logo = document.getElementById("logo");
+    const mainContent = document.getElementById("mainContent");
 
-    mainButton.addEventListener("click", (e) =>
-    {
-        mainButton.style.backgroundColor = "green"
-        logo.classList.add("logoFall");
-    });
-
-    const clickCounterButton = document.getElementById("clickCounterButton");
-    const clickCounterNumberText = document.getElementById("clickCounterNumberText");
-    let currentClickCounterNumber = 0;
-
-    clickCounterButton.addEventListener("click", (e) =>
-    {
-        currentClickCounterNumber++;
-        clickCounterNumberText.innerText = currentClickCounterNumber;
-    });
+    const clickSound = new Audio("sounds/click.mp3");
 
     const teamQuotes = [
     "En för alla, alla för Lag 13!",
@@ -36,9 +23,39 @@ addEventListener("DOMContentLoaded", (event) =>
     "En bra idé är början. En fungerande sida är målet.",
     "Lag 13: Powered by kaffe och stack overflow."
 ];
-function getTeamQuote()
+function getRandomTeamQuote()
 {
     return randomQuote = teamQuotes[Math.floor(Math.random() * teamQuotes.length)];
 }
+const teamQuoteParagraph = document.getElementById("teamQuoteParagraph");
+teamQuoteParagraph.innerText = getRandomTeamQuote();
+
+    mainButton.addEventListener("click", (e) =>
+    {
+        mainButton.style.backgroundColor = "green"
+        logo.classList.add("logoFall");
+        teamQuoteParagraph.innerText = getRandomTeamQuote();
+    });
+
+    const clickCounterButton = document.getElementById("clickCounterButton");
+    const clickCounterNumberText = document.getElementById("clickCounterNumberText");
+    let currentClickCounterNumber = 0;
+
+    clickCounterButton.addEventListener("click", (e) =>
+    {
+        currentClickCounterNumber++;
+        clickCounterNumberText.innerText = currentClickCounterNumber;
+        clickSound.currentTime = 0;
+        clickSound.play();
+    });
+
+    const themeButton = document.querySelector("#themeButton");
+
+    themeButton.addEventListener("click", () =>
+    {
+        document.body.classList.toggle("dark");
+        mainContent.classList.toggle("dark");
+    });
 
 });
+

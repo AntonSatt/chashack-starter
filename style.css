@@ -5,6 +5,13 @@
     --primary: #ff6600;
 }
 
+.dark {
+    --background: #121212;
+    --text: #ffffff;
+    --card: #1e1e1e;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--background);
@@ -36,6 +43,11 @@ button:hover, a:hover
     margin: 1em;
 }
 
+.dark .content
+{
+background-color: #1e1e1e;
+}
+
 #mainButton {
     border-radius: 6px;
     background-color: var(--primary);
@@ -44,6 +56,19 @@ button:hover, a:hover
 
 #logo {
     margin-bottom: 2em;
+    animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .logoFall
@@ -97,7 +122,7 @@ footer {
 
 @font-face {
     font-family: "Seriguela Display";
-    src: url(../assets/typsnitt/assets/typsnitt/Seriguela-DisplayPoster.woff2) format("woff2");
+    src: url(/assets/typsnitt/Seriguela-DisplayPoster.woff2) format("woff2");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -105,7 +130,7 @@ footer {
 }
 @font-face {
     font-family: "Galano Classic";
-    src: url(../assets/typsnitt/GalanoClassicRegular.woff2) format("woff2");
+    src: url(/assets/typsnitt/GalanoClassicRegular.woff2) format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;

@@ -28,6 +28,7 @@ Hemsidan innehåller bland annat:
 - CSS-styling
 - JavaScript-interaktivitet
 - Tillgänglig bild med beskrivande alt-text
+- Klickräknare med knappljud
 
 ## 🛠 Teknik
 
@@ -44,3 +45,32 @@ Klona repot:
 
 ```bash
 git clone https://github.com/majakarlsson68gmailcom/chashack-starter.git
+
+## 🥚 Easter egg
+
+Sidan innehåller ett hemligt Easter egg.
+
+För att aktivera det:
+
+1. Öppna sidan.
+2. Skriv `MAHW` på tangentbordet.
+3. Ett hemligt meddelande visas tillsammans med konfetti.
+
+## 🌐 Externt API
+
+Sidan använder JokeAPI för att hämta slumpmässiga programmeringsskämt:
+
+`https://v2.jokeapi.dev/joke/Programming`
+
+Ett nytt skämt hämtas när sidan öppnas eller när användaren klickar på knappen **Hämta nytt**.
+
+Om API-anropet misslyckas visas ett felmeddelande på sidan istället.
+
+## 💾 LocalStorage
+
+Sidan sparar följande information i webbläsarens `localStorage`:
+
+- valt ljust eller mörkt tema
+- antal klick i klickräknaren
+
+Det betyder att informationen finns kvar även efter att sidan laddas om med F5.
