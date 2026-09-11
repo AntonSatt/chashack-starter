@@ -15,7 +15,7 @@ Teamet
 William Schelen
 Maja Karlsson
 Hlib Hrynchenko
-Avan 
+Avan Kamari
 Publicerad version
 
 Den publicerade versionen av sidan kommer att finnas här:
