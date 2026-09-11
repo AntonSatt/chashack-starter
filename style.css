@@ -1,17 +1,22 @@
+:root {
+    --lighblue: #cae3f1;
+    --yellow: yellow;
+    --bright-pink: rgb(229, 63, 218)
+}
 body {
-    background-color:#cae3f1;
+    background-color:var(--lighblue);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .step1 {
-  color: yellow;
+  color: var(--yellow);
   transition: 1s;
 }
 
 .step8 {
   height: 50px;
   width: 200px;
-  background-color: rgb(229, 63, 218);
+  background-color: var(--bright-pink);
   padding: 2px;
   border-radius: 10px;
 }
