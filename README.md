@@ -4,4 +4,4 @@
 - Ganbold - FAI26
 - Rickard - NET26
 - Svea - NET26
-[<link>]
+[https://www.linkedin.com/feed/update/urn:li:activity:7504158857724723201/]
