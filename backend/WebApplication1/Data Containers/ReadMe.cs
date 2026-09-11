@@ -2,6 +2,16 @@
 {
     public class ReadMe
     {
-        public static string ReadMeText = "Hej det här är en readme";
+        public async Task<string> GetReadMe(string readmepath)
+        {
+            string readmetxt;
+
+            if (System.IO.File.Exists(readmepath))
+                readmetxt = await System.IO.File.ReadAllTextAsync(readmepath);
+            else
+                readmetxt = "";
+
+            return readmetxt;
+        }
     }
 }
