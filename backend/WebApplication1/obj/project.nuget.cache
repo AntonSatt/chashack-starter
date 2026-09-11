@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nwb8iosHSLg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\alexg\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
