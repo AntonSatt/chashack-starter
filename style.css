@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
 
   animation-name: title;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 
 @keyframes title {
