@@ -1,115 +1,82 @@
-# ChasHack starter
+# MAHW – Lag 13 | ChasHack 2026
 
-Det här är start-repot. Här ligger tre tomma filer som blir lagets hemsida
-under dagen:
+En hemsida skapad av Lag 13 under ChasHack 2026.
 
-| Fil | Vad den gör |
-| --- | --- |
-| `index.html` | Innehållet: rubriker, text, bilder, knappar |
-| `style.css` | Utseendet: färger, typsnitt, placering |
-| `script.js` | Det som händer när man klickar |
+Vi är ett team med olika tekniska och kreativa kompetenser som tillsammans har byggt en responsiv och interaktiv hemsida med HTML, CSS och JavaScript.
 
-**Alla uppgifter finns på uppgiftssidan:**
-[antonsatt.github.io/chashack-uppgiftssida](https://antonsatt.github.io/chashack-uppgiftssida/#start)
+## 🌐 Live version
 
-Det här repot innehåller inga uppgifter - bara filerna ni bygger i.
+👉 [Öppna hemsidan](https://majakarlsson68gmailcom.github.io/chashack-starter/)
 
----
+## 👥 Teamet
 
-## Kom igång
+- Maja
+- Avan
+- Hlib
+- William
 
-### 1. Alla i laget skaffar ett GitHub-konto
+## 💡 Om projektet
 
-Gå till [github.com/signup](https://github.com/signup). Skriv upp era
-användarnamn, ni behöver dem i steg 3.
+Vårt mål var att skapa en modern och tydlig hemsida som representerar vårt lag och våra olika kompetenser.
 
-### 2. En person i laget forkar det här repot
+Hemsidan innehåller bland annat:
 
-**Fork** = er egen kopia. Ni jobbar i kopian, inte i det här repot.
+- Lagets namn och presentation
+- Lista över alla lagmedlemmar
+- Egen MAHW-logotyp
+- Responsiv design
+- CSS-styling
+- JavaScript-interaktivitet
+- Tillgänglig bild med beskrivande alt-text
+- Klickräknare med knappljud
+- Mörk och ljust läge (sidan minns)
 
-1. Tryck på **Fork** uppe till höger på den här sidan.
-2. Tryck **Create fork**.
-3. Kontrollera att det står **Public** bredvid namnet. Står det Private:
-   gå till **Settings**, skrolla längst ner och byt.
+## Externt API
 
-Er kopia hamnar på `https://github.com/ert-anvandarnamn/chashack-starter`.
+Vi använder Open-Meteo API för att hämta aktuell temperatur i Stockholm.
+Om API-anropet misslyckas visas ett felmeddelande på sidan.
 
-### 3. Bjud in resten av laget
+## 🛠 Teknik
 
-I er nya kopia: **Settings → Collaborators → Add people**. Skriv in
-lagkamraternas användarnamn, en i taget.
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- GitHub Pages
 
-De får ett mejl med en inbjudan som de måste **acceptera direkt** - annars
-kan de inte spara några ändringar.
+## 🚀 Så kör du projektet lokalt
 
-### 4. Hämta ner repot till datorn
-
-Tryck på gröna **Code**-knappen i ert repo och kopiera URL:en. Sen i
-terminalen:
-
-```bash
-git clone https://github.com/ert-anvandarnamn/chashack-starter.git
-cd chashack-starter
-```
-
-Öppna mappen i VS Code (**File → Open Folder**).
-
-Föredrar ni att slippa terminalen: ladda ner
-[GitHub Desktop](https://desktop.github.com/), logga in och välj
-**File → Clone repository**.
-
-### 5. Spara och skicka upp era ändringar
-
-Efter varje ändring:
+Klona repot:
 
 ```bash
-git add .
-git commit -m "beskriv vad du gjorde"
-git push
-```
+git clone https://github.com/majakarlsson68gmailcom/chashack-starter.git
 
-Hämta lagkamraternas senaste ändringar innan ni börjar jobba:
+## 🥚 Easter egg
 
-```bash
-git pull
-```
+Sidan innehåller ett hemligt Easter egg.
 
-I GitHub Desktop heter samma sak **Commit to main** och **Push origin**.
+För att aktivera det:
 
-**Push är viktigt.** Innan ni pushat finns ändringen bara på er dator, och
-inget annat lag kan granska den.
+1. Öppna sidan.
+2. Skriv `MAHW` på tangentbordet.
+3. Ett hemligt meddelande visas tillsammans med konfetti.
 
-### 6. Kör igång
+## 🌐 Externt API
 
-Gå till [uppgiftssidan](https://antonsatt.github.io/chashack-uppgiftssida/#start),
-skriv in lagnamnet och börja på steg 1 i huvudspåret.
+Sidan använder JokeAPI för att hämta slumpmässiga programmeringsskämt:
 
----
+`https://v2.jokeapi.dev/joke/Programming`
 
-## Bra att veta
-- **Kör ni i VS Code? Installera tillägget Live Server.** Då slipper ni ladda
-  om: sidan uppdateras i webbläsaren direkt när ni sparar.
-  1. Tryck på ikonen med fyra rutor i menyn till vänster (**Extensions**).
-  2. Sök efter **Live Server** och tryck **Install**.
-  3. Högerklicka någonstans inne i `index.html` och välj **Open with Live Server**.
+Ett nytt skämt hämtas när sidan öppnas eller när användaren klickar på knappen **Hämta nytt**.
 
-  Sidan öppnas på `http://127.0.0.1:5500`. Låt fönstret ligga bredvid
-  VS Code medan ni jobbar - varje gång ni sparar med Ctrl+S syns ändringen
-  direkt.
-- **Byt ut den här README-filen.** I steg 11 skriver ni en egen README med
-  lagets namn, medlemmarna och länken till er publicerade sida.
-- **Fastnar ni?** Fråga en handledare. Det räknas inte emot er. Fastnar ni
-  mer än en kvart: hoppa till nästa steg och kom tillbaka senare.
+Om API-anropet misslyckas visas ett felmeddelande på sidan istället.
 
-## Ordlista
+## 💾 LocalStorage
 
-| Ord | Betyder |
-| --- | --- |
-| **Repo** | Mappen med er kod, på GitHub |
-| **Fork** | Er egen kopia av någon annans repo |
-| **Clone** | Hämta ner repot till datorn |
-| **Commit** | En sparad ändring i historiken |
-| **Push** | Skicka upp era commits till GitHub |
-| **Pull** | Hämta ner lagkamraternas senaste ändringar |
-| **Collaborator** | Någon som får spara ändringar i repot |
-| **Deploya** | Lägga upp sidan så att andra kan öppna den |
+Sidan sparar följande information i webbläsarens `localStorage`:
+
+- valt ljust eller mörkt tema
+- antal klick i klickräknaren
+
+Det betyder att informationen finns kvar även efter att sidan laddas om med F5.

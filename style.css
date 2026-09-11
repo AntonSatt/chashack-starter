@@ -1,0 +1,150 @@
+:root
+{
+    --background: rgb(209, 250, 250);
+    --text: black;
+    --primary: #ff6600;
+}
+
+.dark {
+    --background: #121212;
+    --text: #ffffff;
+    --card: #1e1e1e;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+button:hover, a:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.1s;
+}
+
+.content {
+    padding: 20px;
+    border: 1px solid rgb(222, 221, 221);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+    background-color: rgb(244, 244, 247);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    margin: 1em;
+}
+
+.dark .content
+{
+background-color: #1e1e1e;
+}
+
+#mainButton {
+    border-radius: 6px;
+    background-color: var(--primary);
+    font-size: 2em;
+}
+
+#logo {
+    margin-bottom: 2em;
+    animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logoFall
+{
+    animation: fallDown 1.2s ease-in-out forwards;
+}
+
+@keyframes fallDown
+{
+    0% {
+        transform: translateY(0)  scale(1, 1)rotate(0deg);
+    }
+    100%
+    {
+        transform: translateY(0) scale(2, 2) rotate(0deg);
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Galano Classic";
+}
+li{
+    margin-bottom: 6px;
+}
+
+li::before {
+    content: "🌟";
+    margin-right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: rgb(8 16 30 / 0.68);
+    color: white;
+    border-top: 1px solid rgb(8 16 30 / 0.92);
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    padding: 3px 2px;
+}
+
+@font-face {
+    font-family: "Seriguela Display";
+    src: url(assets/typsnitt/Seriguela-DisplayPoster.woff2) format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: "Galano Classic";
+    src: url(assets/typsnitt/GalanoClassicRegular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+p{
+    font-size: 20px;
+    font-family: "Galano Classic";
+}
+
+
+h1{
+    font-family: "Seriguela Display", serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
