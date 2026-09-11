@@ -13,4 +13,21 @@ body {
     height: 50px;
     width: 200px;
     background-color: yellow;
+    padding: 2px,
+}
+
+.header-container {
+    height: auto;
+    min-height: 200px;
+}
+.container {
+    height: auto;
+    min-height: 300px;
+}
+.footer-container {
+    height: auto;
+}
+
+.container, .footer-container, .header-container {
+    border: 1px solid black;
 }
