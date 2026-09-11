@@ -15,12 +15,11 @@ body{
     min-height:100vh;
 }
 
-<<<<<<< HEAD
 img {
     display: block;
     margin: 0 auto;
     width: 200px;
-=======
+}
 ul{
     width: min(100%, 520px);
     margin: 24px auto;
@@ -52,7 +51,6 @@ li{
 
 .name-button:hover{
     background-color: #f4bd45;
->>>>>>> 2cab090 (knappar)
 }
 
 footer{
