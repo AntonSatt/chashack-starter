@@ -1,11 +1,11 @@
 :root {
-    --lighblue: #cae3f1;
-    --yellow: yellow;
-    --bright-pink: rgb(229, 63, 218)
+  --lighblue: #cae3f1;
+  --yellow: yellow;
+  --bright-pink: rgb(229, 63, 218);
 }
 body {
-    background-color:var(--lighblue);
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--lighblue);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .step1 {
