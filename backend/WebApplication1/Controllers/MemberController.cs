@@ -13,20 +13,28 @@ namespace WebApplication1.Controllers
         public MemberController() {AddAllMembers();}
 
         [HttpGet("{name}")]
-        public ActionResult<Member> GetMember(string name)
+        public ActionResult<Member> GetMemberByName(string name)
         {
             var member = MemberData.GetMemberByName(name);
             if (member == null) return NotFound();
             else return member;
         }
 
-        [HttpGet("all")]
-        public ActionResult<List<Member>> GetAllMembers()
+        [HttpGet("{role}")]
+        public ActionResult<Member> GetMemberByRole(string role)
         {
-            var members = MemberData.GetAllMembers();
-            if (members == null || members.Count == 0) return NotFound();
-            else return members;
+            var member = MemberData.GetMemberByRole(role);
+            if (member == null) return NotFound();
+            else return member;
         }
+
+            [HttpGet("all")]
+            public ActionResult<List<Member>> GetAllMembers()
+            {
+                var members = MemberData.GetAllMembers();
+                if (members == null || members.Count == 0) return NotFound();
+                else return members;
+            }
 
         private void AddAllMembers()
         {

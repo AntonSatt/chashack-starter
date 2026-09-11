@@ -6,11 +6,7 @@ namespace WebApplication1.Factories
     {
         public static Member CreateMember(string name, string role)
         {
-            var member = new Member
-            {
-                name = name,
-                role = role
-            };
+            var member = new Member(name, role);
 
             return member;
         }

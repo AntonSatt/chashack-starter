@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\click game\\controllers\\clickcompetitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:click game\\controllers\\clickcompetitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\click game\\data containers\\competitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:click game\\data containers\\competitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\click game\\data containers\\clickdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:click game\\data containers\\clickdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\click game\\data containers\\clickcompetitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:click game\\data containers\\clickcompetitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\controllers\\readmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\readmecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,28 @@
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\data containers\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:data containers\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\data containers\\memberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:data containers\\memberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\display objects\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:display objects\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\data containers\\memberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:data containers\\memberdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\click game\\factories\\clickcompetitorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:click game\\factories\\clickcompetitorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\factories\\memberfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:factories\\memberfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\alexg\\documents\\school\\hackaton\\09-11\\codeflow\\backend\\webapplication1\\data containers\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:data containers\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,62 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReadMeController.cs",
-              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\ReadMeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReadMeController.cs",
-              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\ReadMeController.cs",
-              "RelativeToolTip": "Controllers\\ReadMeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T09:27:40.31Z",
+              "WhenOpened": "2026-09-11T08:26:10.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReadMe.cs",
-              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\ReadMe.cs",
-              "RelativeDocumentMoniker": "Data Containers\\ReadMe.cs",
-              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\ReadMe.cs",
-              "RelativeToolTip": "Data Containers\\ReadMe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Title": "ClickData.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\ClickData.cs",
+              "RelativeDocumentMoniker": "Click Game\\Data Containers\\ClickData.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\ClickData.cs",
+              "RelativeToolTip": "Click Game\\Data Containers\\ClickData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T09:26:10.906Z",
+              "WhenOpened": "2026-09-11T09:58:02.769Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MemberData.cs",
-              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\MemberData.cs",
-              "RelativeDocumentMoniker": "Data Containers\\MemberData.cs",
-              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\MemberData.cs",
-              "RelativeToolTip": "Data Containers\\MemberData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T08:48:09.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MemberFactory.cs",
-              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Factories\\MemberFactory.cs",
-              "RelativeDocumentMoniker": "Factories\\MemberFactory.cs",
-              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Factories\\MemberFactory.cs",
-              "RelativeToolTip": "Factories\\MemberFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T08:46:26.162Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ClickCompetitor.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\ClickCompetitor.cs",
+              "RelativeDocumentMoniker": "Click Game\\Data Containers\\ClickCompetitor.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\ClickCompetitor.cs",
+              "RelativeToolTip": "Click Game\\Data Containers\\ClickCompetitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T09:38:35.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Display Objects\\Member.cs",
               "RelativeDocumentMoniker": "Display Objects\\Member.cs",
@@ -106,28 +114,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MemberData.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\MemberData.cs",
+              "RelativeDocumentMoniker": "Data Containers\\MemberData.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\MemberData.cs",
+              "RelativeToolTip": "Data Containers\\MemberData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T08:26:10.307Z",
+              "WhenOpened": "2026-09-11T08:48:09.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "ReadMeController.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\ReadMeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReadMeController.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Controllers\\ReadMeController.cs",
+              "RelativeToolTip": "Controllers\\ReadMeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T09:27:40.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Competitors.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\Competitors.cs",
+              "RelativeDocumentMoniker": "Click Game\\Data Containers\\Competitors.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Data Containers\\Competitors.cs",
+              "RelativeToolTip": "Click Game\\Data Containers\\Competitors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T10:13:45.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClickCompetitionController.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Controllers\\ClickCompetitionController.cs",
+              "RelativeDocumentMoniker": "Click Game\\Controllers\\ClickCompetitionController.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Controllers\\ClickCompetitionController.cs",
+              "RelativeToolTip": "Click Game\\Controllers\\ClickCompetitionController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T09:56:12.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T08:06:57.595Z"
+              "WhenOpened": "2026-09-11T08:06:57.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClickCompetitorFactory.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Factories\\ClickCompetitorFactory.cs",
+              "RelativeDocumentMoniker": "Click Game\\Factories\\ClickCompetitorFactory.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Click Game\\Factories\\ClickCompetitorFactory.cs",
+              "RelativeToolTip": "Click Game\\Factories\\ClickCompetitorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T09:53:53.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReadMe.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\ReadMe.cs",
+              "RelativeDocumentMoniker": "Data Containers\\ReadMe.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Data Containers\\ReadMe.cs",
+              "RelativeToolTip": "Data Containers\\ReadMe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T09:26:10.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemberFactory.cs",
+              "DocumentMoniker": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Factories\\MemberFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\MemberFactory.cs",
+              "ToolTip": "C:\\Users\\alexg\\Documents\\school\\hackaton\\09-11\\CodeFlow\\backend\\WebApplication1\\Factories\\MemberFactory.cs",
+              "RelativeToolTip": "Factories\\MemberFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T08:46:26.162Z",
+              "EditorCaption": ""
             }
           ]
         }

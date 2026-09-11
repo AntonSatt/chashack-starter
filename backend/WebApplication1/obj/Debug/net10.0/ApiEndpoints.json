@@ -1,7 +1,49 @@
 [
   {
+    "ContainingType": "WebApplication1.Click_Game.Controllers.ClickCompetitionController",
+    "Method": "GetCurrentHighScore",
+    "RelativePath": "api/clickgame/{val}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "val",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApplication1.Data_Containers.ClickCompetitor, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Click_Game.Controllers.ClickCompetitionController",
+    "Method": "RegisterNewClickData",
+    "RelativePath": "api/clickgame/registerclicks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clickData",
+        "Type": "WebApplication1.Click_Game.Data_Containers.ClickData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.MemberController",
-    "Method": "GetMember",
+    "Method": "GetMemberByName",
     "RelativePath": "api/members/{name}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -9,6 +51,32 @@
     "Parameters": [
       {
         "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication1.Members.Member",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MemberController",
+    "Method": "GetMemberByRole",
+    "RelativePath": "api/members/{role}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
         "Type": "System.String",
         "IsRequired": true
       }
