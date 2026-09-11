@@ -1,20 +1,41 @@
 body {
-    background-color:blue;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2px,
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
 }
 .header-container {
-    height: auto;
-    min-height: 200px;
+  height: auto;
+  min-height: 200px;
 }
 .container {
-    height: auto;
-    min-height: 300px;
+  height: auto;
+  min-height: 300px;
 }
 .footer-container {
-    height: auto;
+  height: auto;
 }
 
-.container, .footer-container, .header-container {
-    border: 1px solid black;
+.container,
+.footer-container,
+.header-container {
+  border: 1px solid black;
+}
+
+h {
+  left: 150px;
+  position: relative;
+
+  animation-name: title;
+  animation-duration: 5s;
+}
+
+@keyframes title {
+  0% {
+    left: -150px;
+    top: 0px;
+  }
+  100% {
+    left: 150px;
+    top: 0px;
+  }
 }
