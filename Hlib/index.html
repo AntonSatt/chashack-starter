@@ -1,104 +1,467 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Lag 13 | ChasHack</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
+
+    <!-- SIDE QUEST: Egen favicon -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="../img/logo.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script
+        src="script.js"
+        defer
+    ></script>
 </head>
+
+
 <body>
+
     <div class="page">
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
         <header class="hero">
+
             <nav class="topbar">
-                <div class="brand">Lag 13</div>
-                <div class="nav-links">
-                    <a href="#about">Om oss</a>
-                    <a href="#team">Teamet</a>
-                    <a href="#contact">Kontakt</a>
+
+                <div class="brand">
+                    MAHW
+                    <span>Lag 13</span>
                 </div>
+
+
+                <div class="nav-links">
+
+                    <a href="#about">
+                        Om oss
+                    </a>
+
+                    <a href="#team">
+                        Teamet
+                    </a>
+
+                    <a href="#functions">
+                        Funktioner
+                    </a>
+
+                    <a href="#contact">
+                        Kontakt
+                    </a>
+
+                </div>
+
+
+                <!-- SIDE QUEST:
+                     Mörkt och ljust läge -->
+
+                <button
+                    id="themeButton"
+                    class="theme-button"
+                >
+                    🌙 Mörkt läge
+                </button>
+
             </nav>
 
+
+
             <div class="hero-grid">
+
+
                 <div class="hero-text">
-                    <p class="eyebrow">CHASHACK 2026</p>
-                    <h1>Lag 13</h1>
-                    <h2>Vi bygger tillsammans</h2>
+
+                    <p class="eyebrow">
+                        CHASHACK 2026
+                    </p>
+
+
+                    <!-- SIDE QUEST:
+                         Animerad entré -->
+
+                    <h1>
+                        Lag 13
+                    </h1>
+
+                    <h2>
+                        Vi bygger tillsammans
+                    </h2>
+
 
                     <p class="lead">
-                        Vi är ett lag med blandade kunskaper. Vi består av en DevOps-student,
-                        en fullstack .NET-utvecklare, en fullstack JavaScript-utvecklare
+
+                        Vi är ett lag med blandade kunskaper.
+
+                        Vi består av en DevOps-student,
+                        en fullstack .NET-utvecklare,
+                        en fullstack JavaScript-utvecklare
                         och en UX engineer.
+
                     </p>
+
 
                     <div class="actions">
-                        <button id="mainButton">Visa vår styrka</button>
-                        <a class="secondary-button" href="#team">Se teamet</a>
+
+                        <button id="mainButton">
+                            Visa vår styrka
+                        </button>
+
+                        <a
+                            href="#team"
+                            class="secondary-button"
+                        >
+                            Se teamet
+                        </a>
+
                     </div>
 
-                    <p id="message" class="message hidden">
-                        Vi kombinerar olika perspektiv för att skapa smarta, användbara
-                        och snygga lösningar tillsammans.
+
+                    <p
+                        id="message"
+                        class="message hidden"
+                    >
+
+                        Vi kombinerar olika perspektiv,
+                        idéer och tekniska kunskaper
+                        för att skapa bättre lösningar
+                        tillsammans.
+
                     </p>
+
                 </div>
 
+
+
                 <div class="hero-visual">
+
                     <img
                         src="../img/logo.png"
                         alt="Rund logotyp för Lag 13 med bokstäverna MAHW i blå och vit design"
                         class="logo"
                     >
+
                 </div>
+
             </div>
+
         </header>
 
+
+
         <main>
-            <section id="about" class="card">
-                <h3>Om oss</h3>
-                <p>
-                    Vårt mål under ChasHack är att bygga en modern hemsida med tydlig struktur,
-                    snygg design och fungerande interaktivitet.
+
+
+            <!-- =========================
+                 OM OSS
+            ========================== -->
+
+            <section
+                id="about"
+                class="section-card"
+            >
+
+                <p class="section-label">
+                    VÅRT PROJEKT
                 </p>
+
+                <h3>
+                    Fyra perspektiv. Ett lag.
+                </h3>
+
+
+                <p>
+
+                    Vårt mål under ChasHack är att
+                    skapa en modern, tydlig och
+                    interaktiv hemsida.
+
+                    Vi arbetar tillsammans med HTML,
+                    CSS, JavaScript, Git och GitHub.
+
+                </p>
+
             </section>
 
-            <section id="team" class="team-section">
-                <h3>Teamet</h3>
-                <p>Alla lagmedlemmar:</p>
+
+
+            <!-- =========================
+                 TEAM
+            ========================== -->
+
+            <section
+                id="team"
+                class="section-card"
+            >
+
+                <p class="section-label">
+                    TEAMET
+                </p>
+
+                <h3>
+                    Lag 13
+                </h3>
+
+
+                <!-- Huvuduppgift:
+                     alla namn i lista -->
 
                 <ul class="team-list">
+
                     <li>Maja</li>
+
                     <li>Avan</li>
+
                     <li>Hlib</li>
+
                     <li>William</li>
+
                 </ul>
 
+
+
                 <div class="team-cards">
-                    <article class="member-card">
-                        <h4>Maja</h4>
-                        <p>Idé & design</p>
-                    </article>
+
 
                     <article class="member-card">
-                        <h4>Avan</h4>
-                        <p>Utveckling</p>
+
+                        <div class="avatar">
+                            M
+                        </div>
+
+                        <h4>
+                            Maja
+                        </h4>
+
+                        <p>
+                            Idé & design
+                        </p>
+
                     </article>
 
-                    <article class="member-card">
-                        <h4>Hlib</h4>
-                        <p>DevOps & struktur</p>
-                    </article>
+
 
                     <article class="member-card">
-                        <h4>William</h4>
-                        <p>Teknik & analys</p>
+
+                        <div class="avatar">
+                            A
+                        </div>
+
+                        <h4>
+                            Avan
+                        </h4>
+
+                        <p>
+                            Utveckling
+                        </p>
+
                     </article>
+
+
+
+                    <article class="member-card">
+
+                        <div class="avatar">
+                            H
+                        </div>
+
+                        <h4>
+                            Hlib
+                        </h4>
+
+                        <p>
+                            DevOps & struktur
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="member-card">
+
+                        <div class="avatar">
+                            W
+                        </div>
+
+                        <h4>
+                            William
+                        </h4>
+
+                        <p>
+                            Teknik & analys
+                        </p>
+
+                    </article>
+
                 </div>
+
+
+
+                <!-- SIDE QUEST:
+                     Lagbild på sidan -->
+
+                <div class="team-photo-area">
+
+                    <div class="photo-heading">
+
+                        <div>
+
+                            <p class="section-label">
+                                CHASHACK
+                            </p>
+
+                            <h3>
+                                Vi på plats
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <img
+                        src="../img/lagbild.jpg"
+                        alt="Maja, Avan, Hlib och William från Lag 13 tillsammans på ChasHack"
+                        class="team-photo"
+                    >
+
+                </div>
+
             </section>
+
+
+
+            <!-- =========================
+                 SIDE QUEST FUNCTIONS
+            ========================== -->
+
+            <section
+                id="functions"
+                class="section-card"
+            >
+
+                <p class="section-label">
+                    INTERAKTIVITET
+                </p>
+
+                <h3>
+                    Testa sidan
+                </h3>
+
+
+                <div class="feature-grid">
+
+
+                    <!-- SIDE QUEST:
+                         Klickräknare -->
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            01
+                        </div>
+
+                        <h4>
+                            Klickräknare
+                        </h4>
+
+
+                        <p>
+                            Antal klick:
+                            <strong id="clickCount">
+                                0
+                            </strong>
+                        </p>
+
+
+                        <button id="counterButton">
+                            Klicka här
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- SIDE QUEST:
+                         Slumpat lagcitat -->
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            02
+                        </div>
+
+                        <h4>
+                            Lagcitat
+                        </h4>
+
+
+                        <p
+                            id="quoteText"
+                            class="quote"
+                        >
+                            Same goal. Different skills.
+                            Greater results.
+                        </p>
+
+
+                        <button id="quoteButton">
+                            Nytt citat
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
         </main>
 
-        <footer id="contact" class="footer">
-            <p>Lag 13 • ChasHack 2026</p>
+
+
+        <footer
+            id="contact"
+            class="footer"
+        >
+
+            <div>
+                <strong>
+                    MAHW — Lag 13
+                </strong>
+
+                <p>
+                    ChasHack 2026
+                </p>
+            </div>
+
+
+            <p class="footer-motto">
+                Same goal. Different skills.
+                Greater results.
+            </p>
+
         </footer>
+
     </div>
+
 </body>
+
 </html>

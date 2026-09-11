@@ -1,23 +1,46 @@
-Lag 13 – ChasHack
-Om oss
+# MAHW – Lag 13 | ChasHack 2026
 
-Vi är Lag 13, ett team på fyra personer och studenter på Chas Academy.
+En hemsida skapad av Lag 13 under ChasHack 2026.
 
-Vi sattes ihop som ett nytt team inför eventet ChasHack, där elever från olika klasser fick möjlighet att samarbeta och skapa ett gemensamt projekt.
+Vi är ett team med olika tekniska och kreativa kompetenser som tillsammans har byggt en responsiv och interaktiv hemsida med HTML, CSS och JavaScript.
 
-Vårt projekt
+## 🌐 Live version
 
-Under ChasHack arbetar vi tillsammans med att skapa en webbsida utifrån uppgiften vi har fått. Detta projekt är ett resultat av vårt samarbete som ett nytt team, där vi tillsammans planerar, utvecklar och testar vår lösning.
+👉 [Öppna hemsidan](https://majakarlsson68gmailcom.github.io/chashack-starter/)
 
-Det här repot innehåller vårt arbete under projektets olika steg.
+## 👥 Teamet
 
-Teamet
-William Schelen
-Maja Karlsson
-Hlib Hrynchenko
-Avan Kamari
-Publicerad version
+- Maja
+- Avan
+- Hlib
+- William
 
-Den publicerade versionen av sidan kommer att finnas här:
+## 💡 Om projektet
 
-Länk kommer snart
+Vårt mål var att skapa en modern och tydlig hemsida som representerar vårt lag och våra olika kompetenser.
+
+Hemsidan innehåller bland annat:
+
+- Lagets namn och presentation
+- Lista över alla lagmedlemmar
+- Egen MAHW-logotyp
+- Responsiv design
+- CSS-styling
+- JavaScript-interaktivitet
+- Tillgänglig bild med beskrivande alt-text
+
+## 🛠 Teknik
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- GitHub Pages
+
+## 🚀 Så kör du projektet lokalt
+
+Klona repot:
+
+```bash
+git clone https://github.com/majakarlsson68gmailcom/chashack-starter.git
