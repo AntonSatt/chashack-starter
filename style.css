@@ -12,6 +12,12 @@ body{
     min-height:100vh;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
 footer{
     border-top:1px solid #060606;
     padding:20px;
