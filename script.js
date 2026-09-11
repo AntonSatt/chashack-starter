@@ -1,9 +1,11 @@
 addEventListener("DOMContentLoaded", (event) =>
 {
     const mainButton = document.getElementById("mainButton");
+    const logo = document.getElementById("logo");
 
     mainButton.addEventListener("click", (e) =>
     {
-        document.body.style.backgroundColor = "lightcoral";
+        mainButton.style.backgroundColor = "green"
+        logo.classList.add("logoFall");
     });
 });
