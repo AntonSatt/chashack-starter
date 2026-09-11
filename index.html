@@ -6,23 +6,38 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
     <link rel="icon" type="image/png" alt="favicon with a light bulb" href="htmlfavicon.png">
-  <link rel="stylesheet" href="/style.css">
+  <script src="dark-mode.js" defer></script>
 </head>
 <body>
  
+
   <header class="header-container">
+    Header <button id="theme_toggler" >Dark Mode</button>
     Header
+    <h1>KeepItSimpleStupid</h1>
+    <div class="weather">
+        <h5>Vädret</h5>
+        <p class="temp">Temperatur:</p>
+        <p class="wind">Vind:</p>
+        <p class="humid">luftfuktighet:</p>
+      </div>
   </header>
   <main class="container">
     main
-     <h1>KeepItSimpleStupid</h1>
-  <p>
-    Hej! Vi är fem personer som pluggar på Chas Academy i Stockholm!
-    Vi går i olika kurser, men vi har alla ett gemensamt intresse för programmering och webbutveckling.
-  </p>
+    <p>
+      Hej! Vi är fem personer som pluggar på Chas Academy i Stockholm!
+      Vi går i olika kurser, men vi har alla ett gemensamt intresse för programmering och webbutveckling.
+    </p>
 
-  <img src="logo.png" alt="logo stating KISS: Keep it simple stupid with a light bulb" width="200" height="200">
-  <img src="grouppic.jpeg" alt="group picture with the 5 team members" width="350" height="200">
+      <img
+        class="logo"
+        src="logo.png"
+        alt="logo stating KISS: Keep it simple stupid with a light bulb"
+        width="200"
+        height="200"
+      />
+      <button class="step8">Jag gör något intressant</button>
+  <img src="grouppic.jpg" alt="group picture with the 5 team members" width="200" height="200">
   
   <p>Meet the team:</p>
   <ul>
@@ -31,6 +46,15 @@
     <li>Rickard Wredberg</li>
     <li>Aleksei Popov</li>
     <li>Ganbold Galbadrakh</li>
+  </ul>
+
+  <p>Allas favoritverktyg</p>
+  <ul>
+    <li>Svea: CTRL+C /CTRL+V</li>
+    <li>Annie: CTRL + Höger/Vänster-pil </li>
+    <li>Rickard: ALT + F4 - Kortkommando som löser alla problem.</li>
+    <li>Aleksei: git reset --hard</li>
+    <li>Ganbold: </li>
   </ul>
  
 <!-- Tidslinje side quest - IN PROGRESS-->
@@ -63,6 +87,7 @@
   
   
 
-
+  <script src="step_8.js"></script>
+  <script src="./weather.js"></script>
 </body>
 </html>

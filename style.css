@@ -4,8 +4,24 @@
   --bright-pink: rgb(229, 63, 218);
 }
 body {
+<<<<<<< HEAD
   background-color: var(--lighblue);
   font-family: Arial, Helvetica, sans-serif;
+=======
+  background-color:var(--lighblue);
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> 27f474b8163c885bdbb3058df05df8f946f2ee82
+}
+
+body.dark_mode {
+  background-color: #1f2933;
+  color: #f5f7fa;
+}
+
+body.dark_mode .container,
+body.dark_mode .footer-container,
+body.dark_mode .header-container {
+  border-color: #f5f7fa;
 }
 
 .step1 {
@@ -65,6 +81,41 @@ h1 {
     left: 0px;
     top: 0px;
   }
+}
+
+#theme_toggler{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background: #0096c3;
+  padding: 20px;
+  border-radius:30px;
+  color: #fff;
+  cursor: pointer;
+}
+.weather {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 170px;
+    height: 170px;
+    background-color: rgba(186, 186, 186, 0.801);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.weather > h5, p {
+    font-size: 20px;
+    color: white;
+}
+
+.weather > h5 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.weather > p {
+    font-size: 15px;
 }
 
 button:hover {
