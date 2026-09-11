@@ -4,8 +4,19 @@
     --bright-pink: rgb(229, 63, 218)
 }
 body {
-    background-color:var(--lighblue);
+  background-color:var(--lighblue);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body.dark_mode {
+  background-color: #1f2933;
+  color: #f5f7fa;
+}
+
+body.dark_mode .container,
+body.dark_mode .footer-container,
+body.dark_mode .header-container {
+  border-color: #f5f7fa;
 }
 
 .step1 {
@@ -67,6 +78,16 @@ h1 {
   }
 }
 
+#theme_toggler{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background: #0096c3;
+  padding: 20px;
+  border-radius:30px;
+  color: #fff;
+  cursor: pointer;
+}
 .weather {
     position: absolute;
     top: 10px;
