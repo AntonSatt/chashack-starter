@@ -1,8 +1,21 @@
 body {
     background-color:blue;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.step1{
+    color: yellow;
+    transition: 1s;
+}
+
+.step8 {
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
     padding: 2px,
 }
+
 .header-container {
     height: auto;
     min-height: 200px;
