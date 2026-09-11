@@ -4,13 +4,8 @@
   --bright-pink: rgb(229, 63, 218);
 }
 body {
-<<<<<<< HEAD
   background-color: var(--lighblue);
   font-family: Arial, Helvetica, sans-serif;
-=======
-  background-color:var(--lighblue);
-    font-family: Arial, Helvetica, sans-serif;
->>>>>>> 27f474b8163c885bdbb3058df05df8f946f2ee82
 }
 
 body.dark_mode {
@@ -83,39 +78,40 @@ h1 {
   }
 }
 
-#theme_toggler{
+#theme_toggler {
   position: absolute;
   bottom: 5%;
   right: 5%;
   background: #0096c3;
   padding: 20px;
-  border-radius:30px;
+  border-radius: 30px;
   color: #fff;
   cursor: pointer;
 }
 .weather {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 170px;
-    height: 170px;
-    background-color: rgba(186, 186, 186, 0.801);
-    border-radius: 5px;
-    padding: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 170px;
+  height: 170px;
+  background-color: rgba(186, 186, 186, 0.801);
+  border-radius: 5px;
+  padding: 5px;
 }
 
-.weather > h5, p {
-    font-size: 20px;
-    color: white;
+.weather > h5,
+p {
+  font-size: 20px;
+  color: white;
 }
 
 .weather > h5 {
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
 
 .weather > p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 button:hover {
