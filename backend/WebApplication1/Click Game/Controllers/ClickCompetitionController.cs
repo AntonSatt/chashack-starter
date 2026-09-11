@@ -21,24 +21,21 @@ namespace WebApplication1.Click_Game.Controllers
         [HttpPost("registerclicks")]
         public ActionResult RegisterNewClickData([FromBody] ClickData clickData)
         {
-            //if(competitors.TryGetCompetitor(clickData.name, out ClickCompetitor comp))
-            //{
-            //    if(comp.Clicks < clickData.clicks)
-            //    {
-            //        comp.UpdateClicks(clickData.clicks);
-            //        comp.UpdateTimestamp(clickData.timeStamp);
-            //        Console.WriteLine($"Updating competitor {comp.Name}");
-            //    }
-            //}
-            //else
-            //{
-            //    var competitor = ClickCompetitorFactory.CreateCompetitor(clickData.name, clickData.clicks, clickData.timeStamp);
-            //    competitors.AddNewCompetitor(competitor);
-            //    Console.WriteLine($"Adding new competitor {competitor.Name}");
-            //}
-
-            var competitor = ClickCompetitorFactory.CreateCompetitor(clickData.name, clickData.clicks, clickData.timeStamp);
-            competitors.AddNewCompetitor(competitor);
+            if (competitors.TryGetCompetitor(clickData.name, out ClickCompetitor comp))
+            {
+                if (comp.Clicks < clickData.clicks)
+                {
+                    comp.UpdateClicks(clickData.clicks);
+                    comp.UpdateTimestamp(clickData.timeStamp);
+                    Console.WriteLine($"Updating competitor {comp.Name}");
+                }
+            }
+            else
+            {
+                var competitor = ClickCompetitorFactory.CreateCompetitor(clickData.name, clickData.clicks, clickData.timeStamp);
+                competitors.AddNewCompetitor(competitor);
+                Console.WriteLine($"Adding new competitor {competitor.Name}");
+            }
 
             return Ok();
         }
