@@ -8,7 +8,7 @@ body{
     margin: 0 auto;
     padding: 32px 24px;
     font-family:Arial;
-    background-color:white;
+    background: linear-gradient(135deg, #fff8ed 0%, #fffdf8 55%, #e8f3e7 100%);
     color:black;
     display:flex;
     flex-direction:column;
