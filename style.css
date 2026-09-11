@@ -1,42 +1,62 @@
 body {
-    background-color:blue;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.step1{
-    color: yellow;
-    transition: 1s;
+.step1 {
+  color: yellow;
+  transition: 1s;
 }
 
 .step8 {
-    height: 50px;
-    width: 200px;
-    background-color: rgb(229, 63, 218);
-    padding: 2px;
-    border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(229, 63, 218);
+  padding: 2px;
+  border-radius: 10px;
 }
 
 .logo {
-    display: block;
-    margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .header-container {
-    height: auto;
-    min-height: 200px;
+  height: auto;
+  min-height: 200px;
 }
 .container {
-    height: auto;
-    min-height: 300px;
+  height: auto;
+  min-height: 300px;
 }
 .footer-container {
-    height: auto;
-    border-top: 1px solid black;
-    margin-top: 4px;
-    padding-top: 4px;
+  height: auto;
+  border-top: 1px solid black;
+  margin-top: 4px;
+  padding-top: 4px;
 }
 
-.container, .footer-container, .header-container {
-    border: 1px solid black;
+.container,
+.footer-container,
+.header-container {
+  border: 1px solid black;
+}
+
+h1 {
+  left: 150px;
+  position: relative;
+
+  animation-name: title;
+  animation-duration: 5s;
+}
+
+@keyframes title {
+  0% {
+    left: -150px;
+    top: 0px;
+  }
+  100% {
+    left: 150px;
+    top: 0px;
+  }
 }
