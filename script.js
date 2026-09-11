@@ -49,13 +49,43 @@ teamQuoteParagraph.innerText = getRandomTeamQuote();
         clickSound.play();
     });
 
-    const themeButton = document.querySelector("#themeButton");
-
-    themeButton.addEventListener("click", () =>
+    function toggleDarkMode()
     {
         document.body.classList.toggle("dark");
         mainContent.classList.toggle("dark");
+        if (document.body.classList.contains("dark"))
+        {
+            localStorage.setItem("theme", "dark");
+        }
+        else
+        {
+            localStorage.setItem("theme", "light");
+        }
+    }
+
+    const themeButton = document.querySelector("#themeButton");
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme == "dark")
+    {
+        document.body.classList.add("dark");
+        mainContent.classList.add("dark");
+    }
+    themeButton.addEventListener("click", () =>
+    {
+        toggleDarkMode();
     });
+
+    fetch("https://api.open-meteo.com/v1/forecast?latitude=59.33&longitude=18.07&current=temperature_2m")
+    .then(response => response.json())
+    .then(data => {
+        const temperature = data.current.temperature_2m;
+        document.querySelector("#temperature").textContent = `${temperature} °C`;
+    })
+    .catch(() => {
+        document.querySelector("#temperature").textContent = "Kunde inte hämta temperaturen.";
+    });
+
 
 });
 

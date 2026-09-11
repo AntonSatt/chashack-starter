@@ -122,7 +122,7 @@ footer {
 
 @font-face {
     font-family: "Seriguela Display";
-    src: url(/assets/typsnitt/Seriguela-DisplayPoster.woff2) format("woff2");
+    src: url(assets/typsnitt/Seriguela-DisplayPoster.woff2) format("woff2");
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -130,7 +130,7 @@ footer {
 }
 @font-face {
     font-family: "Galano Classic";
-    src: url(/assets/typsnitt/GalanoClassicRegular.woff2) format("woff2");
+    src: url(assets/typsnitt/GalanoClassicRegular.woff2) format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;

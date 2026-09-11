@@ -29,6 +29,12 @@ Hemsidan innehåller bland annat:
 - JavaScript-interaktivitet
 - Tillgänglig bild med beskrivande alt-text
 - Klickräknare med knappljud
+- Mörk och ljust läge (sidan minns)
+
+## Externt API
+
+Vi använder Open-Meteo API för att hämta aktuell temperatur i Stockholm.
+Om API-anropet misslyckas visas ett felmeddelande på sidan.
 
 ## 🛠 Teknik
 
