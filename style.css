@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
 
   animation-name: title;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 @keyframes title {
@@ -60,4 +60,10 @@ h1 {
     left: 0px;
     top: 0px;
   }
+}
+
+button:hover {
+  background-color: yellow;
+  font-size: 20px;
+  text-transform: uppercase;
 }
